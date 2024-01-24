@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockeys-Main</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!-- font awesome icon -->
+    <script src="https://kit.fontawesome.com/f14e94009c.js" crossorigin="anonymous"></script>
+
     <!-- tailwind + daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -35,7 +38,7 @@
                             <li><a>contact</a></li>
                         </ul>
                     </div>
-                    <a class="text-4xl text-[#131318] font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                    <a class="text-3xl lg:text-4xl text-[#131318] font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -525,27 +528,38 @@
                 <div class="lg:col-span-2 mx-5 lg:mx-0 h-full">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 my-4 lg:my-1">
                         <div class="space-y-5 col-span-2 lg:col-span-1">
-                            <label class="block" for="">Your Name</label>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                            <label class="block text-[#131318] text-xl font-bold" for="">Your Name</label>
+                            <input type="text" placeholder="Your Name" class="input bg-[#13131808] border-none input-bordered w-full max-w-xs" />
                         </div>
                         <div class="space-y-5 col-span-2 lg:col-span-1">
-                            <label class="block" for="">Your Email</label>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                            <label class="block text-[#131318] text-xl font-bold" for="">Your Email</label>
+                            <input type="email" placeholder="example@gmail.com" class="input input-bordered bg-[#13131808] border-none w-full max-w-xs" />
                         </div>
                         <div class="space-y-5 col-span-2 lg:col-span-1">
-                            <label class="block" for="">Your Name</label>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                            <label class="block text-[#131318] text-xl font-bold" for="">Subject</label>
+                            <input type="text" placeholder="Subject" class="input input-bordered bg-[#13131808] border-none w-full max-w-xs" />
                         </div>
                         <div class="space-y-5 col-span-2 lg:col-span-1">
-                            <label class="block" for="">Your Name</label>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                            <label class="block text-[#131318] text-xl font-bold" for="">Phone Number</label>
+                            <input type="number" placeholder="Phone" class="input input-bordered bg-[#13131808] border-none w-full max-w-xs" />
                         </div>
                         <div class="space-y-5  col-span-2">
-                            <label for="">Your Name</label>
+                            <label class="text-[#131318] text-xl font-bold" for="">Your Message</label>
                             <textarea class="textarea textarea-bordered w-full" rows="10" placeholder="Your Message"></textarea>
                         </div>
                         <button class="col-span-2 btn w-full bg-[#FF4240] text-white mt-4">Send Message</button>
                     </div>
+                </div>
+            </div>
+
+            <!-- contact form bottom part icon section -->
+            <div class="space-y-5 mt-12 bg-[#13131808] py-9 rounded-lg">
+                <h3 class="text-[#131318] font-extrabold text-2xl text-center">Social Media</h3>
+                <div class="text-center space-x-4">
+                    <i class="fa-brands fa-twitter "></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
                 </div>
             </div>
         </section>
